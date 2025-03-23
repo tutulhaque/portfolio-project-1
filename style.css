@@ -524,59 +524,6 @@ footer h4 {
 }
 /* Grid Container End */
 
-@media (max-width: 647px) {
-  .nav {
-    padding: 0px 15px;
-  }
-  .nav h3 {
-    font-size: 16px;
-  }
-  .main-navigation li {
-    padding: 0px 3px;
-    list-style: none;
-  }
-  .main-navigation li a {
-    padding: 0px 3px;
-    list-style: none;
-    text-decoration: none;
-    color: #100e0e;
-    font-weight: 400;
-    font-size: 12px;
-  }
-  #about {
-    flex-direction: column;
-    padding: 0px 15px;
-  }
-  .headingTwo {
-    padding: 0px 15px;
-    font-size: 24px;
-  }
-  #about p {
-    font-size: 12px;
-    text-align: justify;
-  }
-  .boxes {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 15px;
-  }
-  .box {
-    width: 350px;
-  }
-  #open-modal-btn {
-    font-size: 12px;
-  }
-  footer h4 {
-    font-size: 12px;
-  }
-  button {
-    font-size: 12px;
-    padding: 7px 12px;
-  }
-  footer {
-    padding-left: 15px;
-  }
-}
 .contact {
   position: relative;
   min-height: 100vh;
@@ -1163,6 +1110,9 @@ footer h4 {
   }
   .contact-container.contactForm form {
     padding: 10px;
+  }
+  footer {
+    padding: 20px 10px;
   }
 }
 /* Mobile view End */
