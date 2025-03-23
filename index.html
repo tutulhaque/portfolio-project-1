@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saifuddullah || Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <main>
+        <!-- Banner Section -->
+        <section class="banner container">
+            <!-- Logo and Main Navigation -->
+            <header>
+                <div class="menu-toggle">&#9776;</div>
+                <a href="./" class="logo"><span>Md</span> Saifuddullah</a>
+                <ul class="main-navigation">
+                    <li><a href="./">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#project">Project</a></li>
+                    <li><a href="#skill">Skills</a></li>
+                    <li><a href="./gallery.html">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <button id="day-night-toggle">
+                        <ion-icon id="theme-icon" name="moon-outline"></ion-icon>
+                    </button>
+                </ul>
+            </header>
+            <div class="content">
+                <h3>Hey_</h3>
+                <h2>I am <strong id="text"></strong></h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, distinctio incidunt. Itaque
+                    earum
+                    maiores laudantium illo est. Dolores, facere praesentium?</p>
+                <button>Hire Me</button>
+                <button class="chat"><ion-icon name="chatbubbles-outline"></ion-icon>Let's Chat</button>
+            </div>
+            <img src="./asset/colors.png" class="colors" alt="">
+
+            <ul class="sci">
+                <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                <li><a href="#"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                <li><a href="#"><ion-icon name="logo-github"></ion-icon></a></li>
+                <li><a href="#"><ion-icon name="logo-youtube"></ion-icon></a></li>
+            </ul>
+        </section>
+
+        <!-- Modal For About See More Button -->
+        <div id="myModal" class="modal overlay">
+            <div class="modal-content">
+                <h2>About Me!</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita recusandae cupiditate iure
+                    accusamus, itaque quas iusto sapiente dolores hic facilis dicta eligendi incidunt, asperiores culpa!
+                    Maxime minima ea laudantium quia magnam modi dolorum excepturi corporis quo sapiente ut quis optio
+                    explicabo possimus, ratione, aspernatur totam, cumque quidem voluptatem natus doloribus!
+                </p>
+                <button id="close-btn">Close</button>
+            </div>
+        </div>
+
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <div class="container">
+                <h2 class="headingTwo">About <span>Me</span></h2>
+                <div id="about-content">
+                    <div>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit iusto non sed ut nulla sit,
+                            maiores velit, assumenda autem quisquam deleniti nobis voluptatum error soluta in architecto
+                            deserunt labore eligendi qui omnis. Eum tempora, corrupti cupiditate incidunt consectetur
+                            aperiam deserunt in. Molestias, numquam vitae. Voluptas neque, quam, eum ipsa cumque esse
+                            minima modi laboriosam sit cupiditate sequi doloremque quod soluta pariatur obcaecati veniam
+                            et inventore minus aliquid beatae? Tempore, laboriosam.
+                        </p>
+                        <button id="open-modal-btn">See more</button>
+                    </div>
+                    <div>
+                        <img id="about-img" src="./asset/about-img.jpg" alt="About Image">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="project" class="projects-section">
+            <div class="container">
+                <h2 class="headingTwo">Our<span> Projects</span></h2>
+                <div class="project-boxes">
+                    <div class="project-box">
+                        <img src="./asset/projects/p1.jpg" alt="">
+                        <h3><a href="#">SKI PROJECT</a></h3>
+                    </div>
+                    <div class="project-box">
+                        <img src="./asset/projects/p7.jpg" alt="">
+                        <h3><a href="#">INTERIOR PROJECT</a></h3>
+                    </div>
+                    <div class="project-box">
+                        <img src="./asset/projects/p3.jpg" alt="">
+                        <h3><a href="#">WEDDING PROJECT</a></h3>
+                    </div>
+                    <div class="project-box">
+                        <img src="./asset/projects/p8.jpg" alt="">
+                        <h3><a href="#">Management Project</a></h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skill Section -->
+        <section id="skill" class="skills-section">
+            <div class="container">
+                <h2 class="headingTwo">My<span> Skills</span></h2>
+                <div class="skill-main">
+                    <div class="left-skill">
+                        <h2>Here, Some of my Creative Skills</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus sequi minus quibusdam,
+                            harum
+                            dolorum praesentium voluptatem? Accusantium, distinctio dignissimos. Vero quidem
+                            necessitatibus,
+                            ad voluptate fuga laboriosam tenetur eligendi accusamus nisi quos voluptates aperiam earum,
+                            sint
+                            minima quod ipsa vel? Ducimus.</p>
+                        <button>Read More</button>
+                    </div>
+                    <div class="right-skill">
+                        <div class="line">
+                            <div class="info">
+                                <span>HTML</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="bars html"></div>
+                        </div>
+                        <div class="line">
+                            <div class="info">
+                                <span>CSS</span>
+                                <span>95%</span>
+                            </div>
+                            <div class="bars css"></div>
+                        </div>
+
+                        <div class="line">
+                            <div class="info">
+                                <span>React</span>
+                                <span>70%</span>
+                            </div>
+                            <div class="bars react"></div>
+                        </div>
+
+                        <div class="line">
+                            <div class="info">
+                                <span>PHP</span>
+                                <span>30%</span>
+                            </div>
+                            <div class="bars php"></div>
+                        </div>
+
+                        <div class="line">
+                            <div class="info">
+                                <span>Javascript</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="bars js"></div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="contact-content container">
+                <h2 class="headingTwo">Contact <span>Us</span></h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, facere recusandae! Excepturi
+                    blanditiis, rerum quibusdam id rem natus modi ea!</p>
+            </div>
+            <div class="contact-container container">
+                <div class="contactInfo">
+                    <div class="contact-box">
+                        <div class="contact-icon"> <b></b><ion-icon name="location-outline"></ion-icon></div>
+                        <div class="contact-text">
+                            <h3>Address:</h3>
+                            <p>00400, Sugar road, Helsinki</p>
+                        </div>
+                    </div>
+                    <div class="contact-box">
+                        <div class="contact-icon"> <b></b><ion-icon name="call-outline"></ion-icon></div>
+                        <div class="contact-text">
+                            <h3>Phone:</h3>
+                            <p>000-0000-00000</p>
+                        </div>
+                    </div>
+                    <div class="contact-box">
+                        <div class="contact-icon"> <b></b><ion-icon name="mail-unread-outline"></ion-icon></div>
+                        <div class="contact-text">
+                            <h3>Email:</h3>
+                            <p>userEmail@mail.com</p>
+                        </div>
+                    </div>
+                    <h2 class="contact-txt">Connect with Us</h2>
+                    <ul class="contact-sci">
+                        <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                        <li><a href="#"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                        <li><a href="#"><ion-icon name="logo-github"></ion-icon></a></li>
+                        <li><a href="#"><ion-icon name="logo-youtube"></ion-icon></a></li>
+                    </ul>
+                </div>
+                <div class="contactForm">
+                    <form>
+                        <h2>Send Message</h2>
+                        <div class="inputBox">
+                            <input type="text" name="" required="required">
+                            <strong>Full Name</strong>
+                        </div>
+                        <div class="inputBox">
+                            <input type="email" name="" required="required">
+                            <strong>Email</strong>
+                        </div>
+                        <div class="inputBox">
+                            <textarea required="required"></textarea>
+                            <strong>Type Your Message</strong>
+                        </div>
+                        <div class="inputBox">
+                            <input type="submit" value="Send">
+                        </div>
+
+
+                    </form>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <h4>Copyright 2025. All rights reserved.</h4>
+            <button id="footer-btn">Go Top</button>
+        </div>
+    </footer>
+    <!-- External JS code -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="./script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
