@@ -1120,3 +1120,6 @@ body.dark-mode .masonry-grid {
 body.dark-mode .menu-toggle {
   background: #333;
 }
+body.dark-mode .sci li a {
+  color: #fff;
+}
