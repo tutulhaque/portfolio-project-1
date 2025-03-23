@@ -7,16 +7,16 @@
   font-weight: 500;
 }
 /* Common */
-span {
-  color: #fff;
+.container {
+  max-width: 1280px;
+  margin: auto;
 }
 .flexContainer {
   display: flex;
   justify-content: center;
 }
-.container {
-  max-width: 1280px;
-  margin: auto;
+span {
+  color: #fff;
 }
 /* Common End */
 
@@ -524,6 +524,7 @@ footer h4 {
 }
 /* Grid Container End */
 
+/* contact Section Start */
 .contact {
   position: relative;
   min-height: 100vh;
@@ -766,17 +767,15 @@ footer h4 {
   min-height: 12vh;
   background: #fff;
 }
+/* Contact Section End */
 
-/* Responsive Design */
-@media (max-width: 1024px) {
-  .banner {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    min-height: auto;
-    padding: 50px 20px;
+@media (min-width: 769px) {
+  .menu-toggle {
+    display: none;
   }
-
+}
+/* Mobile View */
+@media (max-width: 768px) {
   header {
     flex-direction: column;
     align-items: center;
@@ -828,99 +827,12 @@ footer h4 {
     width: 100%;
     right: auto;
   }
-  /* about section */
-  #about-content {
+  .banner {
     flex-direction: column;
-    text-align: center;
     align-items: center;
-    padding: 0px;
-  }
-  .headingTwo {
-    padding: 15px 10px !important;
-  }
-
-  #about-content p {
-    font-size: 1.1em;
-    text-align: justify;
-  }
-
-  #about-img {
-    max-width: 80%;
-  }
-  /* about section */
-  /* Project Section */
-  .project-boxes {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 30px;
-  }
-
-  .project-box img {
-    width: 220px;
-  }
-  /* Project Section */
-  /* My Skill Section */
-  .skill-main {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .left-skill {
-    width: 100%;
-    margin-bottom: 20px;
-  }
-
-  .right-skill {
-    width: 100%;
-    margin-left: 0;
-  }
-
-  .right-skill .line {
-    margin-bottom: 10px;
-  }
-
-  .right-skill .bars {
-    height: 4px;
-  }
-
-  .right .info span {
-    font-size: 1.2em;
-  }
-
-  .skills-section h2 {
-    font-size: 1.8em;
-  }
-
-  .skills-section button {
-    font-size: 1em;
-    padding: 10px 20px;
-  }
-
-  .left-skill button {
-    width: 100%;
-  }
-  .contact .headingTwo {
-    padding: 15px 0px !important;
-  }
-  /* MySkill Section End*/
-
-  /* Gallery Grid */
-  .masonry-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-  /* Gallery Grid End*/
-}
-@media (min-width: 769px) {
-  .menu-toggle {
-    display: none;
-  }
-}
-/* Mobile View */
-@media (max-width: 768px) {
-  .masonry-grid {
-    grid-template-columns: 1fr;
-    grid-auto-rows: 250px;
-    padding: 10px;
+    text-align: center;
+    min-height: auto;
+    padding: 50px 20px;
   }
   header {
     flex-direction: row;
@@ -980,16 +892,21 @@ footer h4 {
   .colors {
     max-width: 50%;
   }
+  /* Grid */
+  .masonry-grid {
+    grid-template-columns: 1fr;
+    grid-auto-rows: 250px;
+    padding: 10px;
+  }
   /* About section */
   #about-content {
     flex-direction: column;
-    text-align: center;
+    text-align: left;
     align-items: center;
   }
 
   #about-content p {
     font-size: 1em;
-    padding: 0 10px;
   }
 
   #about-img {
@@ -1034,7 +951,7 @@ footer h4 {
 
   .project-boxes {
     display: flex;
-    flex-wrap: wrap; /* Allow project boxes to wrap */
+    flex-wrap: wrap;
     justify-content: space-between;
     gap: 20px;
   }
@@ -1044,6 +961,7 @@ footer h4 {
   }
 
   /* Project Section */
+
   /* My Skill Section */
   .skills-section .headingTwo {
     padding: 0px 20px !important;
@@ -1094,6 +1012,7 @@ footer h4 {
     width: 100%;
   }
   /* My Section Skill */
+
   /* Contact */
   .contact {
     padding: 30px;
